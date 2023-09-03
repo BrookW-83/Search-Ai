@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'chat_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -105,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // Chat Screen (formerly Exit Screen)
     Center(
       child: ElevatedButton(
-        onPressed: () {
+        onPressed: (chat_screen) {
           // Handle chat button press
           // You can use Navigator.pop(context); to exit the app.
         },
